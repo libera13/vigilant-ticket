@@ -6,7 +6,7 @@ module.exports = (phase) => {
     return {
         env: {
             REDIRECT_URI: isDev
-                ? "http://localhost:3000/api/callback" : "https://vigilant-ticket.vercel.app/api/callback",
+                ? "api/init" : "api/init",
             POST_LOGOUT_URI: isDev
                 ? "http://localhost:3000/"
                 : 'https://vigilant-ticket.vercel.app/',
